@@ -1,0 +1,70 @@
+# ======================
+# Python / venv
+# ======================
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ======================
+# OS / Editors
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ======================
+# Secrets
+# ======================
+.env
+.env.*
+*.key
+*.pem
+
+# ======================
+# Data / Warehouse (no subir)
+# ======================
+data/
+*.bak
+*.mdf
+*.ldf
+*.trn
+*.csv
+*.parquet
+
+# ======================
+# Power BI
+# ======================
+powerbi/.pbi/
+powerbi/**/.pbi/
+*.pbit
+*.pbix.tmp
+*.pbi*
+*.log
+
+# ======================
+# Reports / exports (sí puedes subir si quieres)
+# ======================
+# (No ignores: powerbi/exports/*.pdf, *.png)
+
+# ======================
+# SQL Server / misc
+# ======================
+*.db
+*.sqlite
