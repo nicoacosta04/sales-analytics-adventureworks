@@ -38,7 +38,7 @@ Thumbs.db
 *.pem
 
 # ======================
-# Data / Warehouse (no subir)
+# Data / Warehouse
 # ======================
 data/
 *.bak
@@ -51,17 +51,12 @@ data/
 # ======================
 # Power BI
 # ======================
-powerbi/.pbi/
-powerbi/**/.pbi/
-*.pbit
-*.pbix.tmp
-*.pbi*
 *.log
 
 # ======================
-# Reports / exports (sí puedes subir si quieres)
+# Reports / exports
 # ======================
-# (No ignores: powerbi/exports/*.pdf, *.png)
+# 
 
 # ======================
 # SQL Server / misc
