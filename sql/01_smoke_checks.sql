@@ -2,7 +2,7 @@ USE AdventureWorksDW2025;
 GO
 
 SELECT DB_NAME() AS DatabaseName, 
-       COUNT(*) AS TotalTables
+COUNT(*) AS TotalTables
 GO
 
 
@@ -15,7 +15,7 @@ JOIN sys.schemas s
 JOIN sys.partitions p 
     ON t.object_id = p.object_id
 WHERE s.name = 'dbo'
-  AND p.index_id IN (0,1)
+AND p.index_id IN (0,1)
 GROUP BY s.name,t.name
 ORDER BY t.name DESC;
 GO
