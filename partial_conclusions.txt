@@ -1,0 +1,1 @@
+After introducing a saturation factor, the revenue response to price changes exhibits an interior maximum, avoiding unrealistic infinite growth under large discounts. This validates the pricing model and enables optimization
